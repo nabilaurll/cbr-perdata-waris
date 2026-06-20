@@ -1,0 +1,438 @@
+=== LOG FILE PEMBERSIHAN DATA PUTUSAN ===
+
+File: case_001.txt
+ - Karakter Asli: 34594
+ - Karakter Bersih: 29575
+ - Rasio Keutuhan: 85.49%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_002.txt
+ - Karakter Asli: 38437
+ - Karakter Bersih: 33351
+ - Rasio Keutuhan: 86.77%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_003.txt
+ - Karakter Asli: 46210
+ - Karakter Bersih: 39855
+ - Rasio Keutuhan: 86.25%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_004.txt
+ - Karakter Asli: 20847
+ - Karakter Bersih: 18099
+ - Rasio Keutuhan: 86.82%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_005.txt
+ - Karakter Asli: 40858
+ - Karakter Bersih: 35618
+ - Rasio Keutuhan: 87.18%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_006.txt
+ - Karakter Asli: 44438
+ - Karakter Bersih: 38373
+ - Rasio Keutuhan: 86.35%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_007.txt
+ - Karakter Asli: 45061
+ - Karakter Bersih: 39311
+ - Rasio Keutuhan: 87.24%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_008.txt
+ - Karakter Asli: 29961
+ - Karakter Bersih: 25356
+ - Rasio Keutuhan: 84.63%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_009.txt
+ - Karakter Asli: 131844
+ - Karakter Bersih: 113420
+ - Rasio Keutuhan: 86.03%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_010.txt
+ - Karakter Asli: 35327
+ - Karakter Bersih: 30454
+ - Rasio Keutuhan: 86.21%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_011.txt
+ - Karakter Asli: 36773
+ - Karakter Bersih: 30645
+ - Rasio Keutuhan: 83.34%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_012.txt
+ - Karakter Asli: 37353
+ - Karakter Bersih: 32042
+ - Rasio Keutuhan: 85.78%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_013.txt
+ - Karakter Asli: 28322
+ - Karakter Bersih: 24460
+ - Rasio Keutuhan: 86.36%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_014.txt
+ - Karakter Asli: 29462
+ - Karakter Bersih: 25032
+ - Rasio Keutuhan: 84.96%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_015.txt
+ - Karakter Asli: 41956
+ - Karakter Bersih: 35333
+ - Rasio Keutuhan: 84.21%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_016.txt
+ - Karakter Asli: 34684
+ - Karakter Bersih: 29848
+ - Rasio Keutuhan: 86.06%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_017.txt
+ - Karakter Asli: 29468
+ - Karakter Bersih: 25356
+ - Rasio Keutuhan: 86.05%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_018.txt
+ - Karakter Asli: 21410
+ - Karakter Bersih: 18687
+ - Rasio Keutuhan: 87.28%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_019.txt
+ - Karakter Asli: 23997
+ - Karakter Bersih: 20436
+ - Rasio Keutuhan: 85.16%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_020.txt
+ - Karakter Asli: 47348
+ - Karakter Bersih: 40472
+ - Rasio Keutuhan: 85.48%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_021.txt
+ - Karakter Asli: 97725
+ - Karakter Bersih: 84211
+ - Rasio Keutuhan: 86.17%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_022.txt
+ - Karakter Asli: 24929
+ - Karakter Bersih: 21584
+ - Rasio Keutuhan: 86.58%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_023.txt
+ - Karakter Asli: 32690
+ - Karakter Bersih: 28094
+ - Rasio Keutuhan: 85.94%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_024.txt
+ - Karakter Asli: 46729
+ - Karakter Bersih: 40405
+ - Rasio Keutuhan: 86.47%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_025.txt
+ - Karakter Asli: 31210
+ - Karakter Bersih: 26631
+ - Rasio Keutuhan: 85.33%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_026.txt
+ - Karakter Asli: 32083
+ - Karakter Bersih: 27788
+ - Rasio Keutuhan: 86.61%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_027.txt
+ - Karakter Asli: 32425
+ - Karakter Bersih: 28243
+ - Rasio Keutuhan: 87.10%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_028.txt
+ - Karakter Asli: 23907
+ - Karakter Bersih: 20707
+ - Rasio Keutuhan: 86.61%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_029.txt
+ - Karakter Asli: 49619
+ - Karakter Bersih: 42997
+ - Rasio Keutuhan: 86.65%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_030.txt
+ - Karakter Asli: 31851
+ - Karakter Bersih: 27604
+ - Rasio Keutuhan: 86.67%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_031.txt
+ - Karakter Asli: 51036
+ - Karakter Bersih: 43698
+ - Rasio Keutuhan: 85.62%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_032.txt
+ - Karakter Asli: 55856
+ - Karakter Bersih: 48584
+ - Rasio Keutuhan: 86.98%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_033.txt
+ - Karakter Asli: 27288
+ - Karakter Bersih: 23833
+ - Rasio Keutuhan: 87.34%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_034.txt
+ - Karakter Asli: 37881
+ - Karakter Bersih: 32983
+ - Rasio Keutuhan: 87.07%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_035.txt
+ - Karakter Asli: 29322
+ - Karakter Bersih: 25119
+ - Rasio Keutuhan: 85.67%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_036.txt
+ - Karakter Asli: 32185
+ - Karakter Bersih: 27785
+ - Rasio Keutuhan: 86.33%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+
+
+=== RERUN PREPROCESSING: ADAPTIF PASAL & PIHAK ===
+=== LOG FILE PEMBERSIHAN DATA PUTUSAN ===
+File: case_001.txt
+ - Karakter Asli: 26402
+ - Karakter Bersih: 26401
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_002.txt
+ - Karakter Asli: 29929
+ - Karakter Bersih: 29929
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_003.txt
+ - Karakter Asli: 35723
+ - Karakter Bersih: 35723
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_004.txt
+ - Karakter Asli: 16411
+ - Karakter Bersih: 16411
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_005.txt
+ - Karakter Asli: 32192
+ - Karakter Bersih: 32192
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_006.txt
+ - Karakter Asli: 34448
+ - Karakter Bersih: 34448
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_007.txt
+ - Karakter Asli: 35394
+ - Karakter Bersih: 35388
+ - Rasio Keutuhan: 99.98%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_008.txt
+ - Karakter Asli: 22686
+ - Karakter Bersih: 22686
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_009.txt
+ - Karakter Asli: 100953
+ - Karakter Bersih: 100953
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_010.txt
+ - Karakter Asli: 27293
+ - Karakter Bersih: 27293
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_011.txt
+ - Karakter Asli: 27491
+ - Karakter Bersih: 27491
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_012.txt
+ - Karakter Asli: 28611
+ - Karakter Bersih: 28592
+ - Rasio Keutuhan: 99.93%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_013.txt
+ - Karakter Asli: 22123
+ - Karakter Bersih: 22123
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_014.txt
+ - Karakter Asli: 22358
+ - Karakter Bersih: 22358
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_015.txt
+ - Karakter Asli: 31672
+ - Karakter Bersih: 31672
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_016.txt
+ - Karakter Asli: 26914
+ - Karakter Bersih: 26914
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_017.txt
+ - Karakter Asli: 22674
+ - Karakter Bersih: 22674
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_018.txt
+ - Karakter Asli: 16962
+ - Karakter Bersih: 16962
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_019.txt
+ - Karakter Asli: 18260
+ - Karakter Bersih: 18260
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_020.txt
+ - Karakter Asli: 36038
+ - Karakter Bersih: 36038
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_021.txt
+ - Karakter Asli: 75437
+ - Karakter Bersih: 75437
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_022.txt
+ - Karakter Asli: 19375
+ - Karakter Bersih: 19375
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_023.txt
+ - Karakter Asli: 25169
+ - Karakter Bersih: 25169
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_024.txt
+ - Karakter Asli: 36203
+ - Karakter Bersih: 36203
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_025.txt
+ - Karakter Asli: 23710
+ - Karakter Bersih: 23710
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_026.txt
+ - Karakter Asli: 24845
+ - Karakter Bersih: 24841
+ - Rasio Keutuhan: 99.98%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_027.txt
+ - Karakter Asli: 25647
+ - Karakter Bersih: 25647
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_028.txt
+ - Karakter Asli: 18528
+ - Karakter Bersih: 18528
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_029.txt
+ - Karakter Asli: 38615
+ - Karakter Bersih: 38611
+ - Rasio Keutuhan: 99.99%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_030.txt
+ - Karakter Asli: 24687
+ - Karakter Bersih: 24687
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_031.txt
+ - Karakter Asli: 39059
+ - Karakter Bersih: 39046
+ - Rasio Keutuhan: 99.97%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_032.txt
+ - Karakter Asli: 43710
+ - Karakter Bersih: 43710
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_033.txt
+ - Karakter Asli: 21655
+ - Karakter Bersih: 21637
+ - Rasio Keutuhan: 99.92%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_034.txt
+ - Karakter Asli: 29945
+ - Karakter Bersih: 29945
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_035.txt
+ - Karakter Asli: 22400
+ - Karakter Bersih: 22400
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------
+File: case_036.txt
+ - Karakter Asli: 24869
+ - Karakter Bersih: 24869
+ - Rasio Keutuhan: 100.00%
+ - Status: VALID (>= 80% isi tersedia)
+----------------------------------------

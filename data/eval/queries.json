@@ -1,0 +1,37 @@
+[
+    {
+        "query_id": "Q_001",
+        "query_text": "halaman putusan nomor 82 k/pdt/2026 p u t u s a n nomor 82 k/pdt/2026 demi keadilan berdasarkan ketuhanan yang maha esa m a h k a m a h a g u n g memeriksa perkara perdata pada tingkat kasasi telah me",
+        "ground_truth_case_id": [
+            "case_036"
+        ]
+    },
+    {
+        "query_id": "Q_002",
+        "query_text": "hal. put. nomor 3768 k/pdt/2025 p u t u s a n nomor 3768 k/pdt/2025 demi keadilan berdasarkan ketuhanan yang maha esa m a h k a m a h a g u n g memeriksa perkara perdata pada tingkat kasasi telah memu",
+        "ground_truth_case_id": [
+            "case_014"
+        ]
+    },
+    {
+        "query_id": "Q_003",
+        "query_text": "hal. putusan nomor 955 pk/pdt/2025 p u t u s a n nomor 955 pk/pdt/2025 demi keadilan berdasarkan ketuhanan yang maha esa m a h k a m a h a g u n g memeriksa perkara perdata pada pemeriksaan peninjauan",
+        "ground_truth_case_id": [
+            "case_027"
+        ]
+    },
+    {
+        "query_id": "Q_004",
+        "query_text": "hal. put. nomor 534 k/pdt/2026 p u t u s a n nomor 534 k/pdt/2026 demi keadilan berdasarkan ketuhanan yang maha esa m a h k a m a h a g u n g memeriksa perkara perdata pada tingkat kasasi telah memutu",
+        "ground_truth_case_id": [
+            "case_031"
+        ]
+    },
+    {
+        "query_id": "Q_005",
+        "query_text": "hal. put. nomor 2805 k/pdt/2025 p u t u s a n nomor 2805 k/pdt/2025 demi keadilan berdasarkan ketuhanan yang maha esa m a h k a m a h a g u n g memeriksa perkara perdata pada tingkat kasasi telah memu",
+        "ground_truth_case_id": [
+            "case_017"
+        ]
+    }
+]
