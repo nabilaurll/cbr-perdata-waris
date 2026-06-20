@@ -1,0 +1,4 @@
+Model_Pendekatan,Accuracy,Precision,Recall,F1-Score
+TF-IDF Murni,0.0,0.0,0.0,0.0
+TF-IDF + SVM,0.0,0.0,0.0,0.0
+BERT Embedding,0.0,0.0,0.0,0.0
