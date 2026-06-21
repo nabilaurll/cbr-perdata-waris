@@ -290,7 +290,8 @@ Evaluasi dilakukan menggunakan metrik:
 
 # Penulis
 
-Proyek Case-Based Reasoning (CBR)
+Nabilla Aurelya P
+Muhammad Senopati Panotogomo
 
 Perdata Waris
 
