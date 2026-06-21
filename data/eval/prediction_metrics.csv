@@ -1,3 +1,2 @@
-Metrik_Prediksi,Nilai_Persentase
-Solusi_Match_Rate,1.0
-Error_Analysis_Count,0.0
+Accuracy,Precision_Macro,Recall_Macro,F1_Macro,Precision_Weighted,Recall_Weighted,F1_Weighted,Total_Query
+0.6,0.5,0.5,0.5,0.6,0.6,0.6,5

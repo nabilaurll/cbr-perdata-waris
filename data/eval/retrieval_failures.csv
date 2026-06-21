@@ -1,0 +1,1 @@
+query_id,method,ground_truth_case_id,retrieved_case_ids,hit,precision_at_k,recall_at_k,top_1_case_id,top_1_score

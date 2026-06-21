@@ -1,4 +1,3 @@
-Model_Pendekatan,Accuracy,Precision,Recall,F1-Score
-TF-IDF Murni,1.0,1.0,1.0,1.0
-TF-IDF + SVM,0.0,0.0,0.0,0.0
-BERT Embedding,1.0,1.0,1.0,1.0
+method,k,Accuracy_Hit@K,Precision,Recall,F1-Score,Mean_Precision@K,Mean_Recall@K,Total_Query
+tfidf_cosine,5,1.0,1.0,1.0,1.0,0.2,1.0,10
+svm_assisted,5,1.0,1.0,1.0,1.0,0.2,1.0,10

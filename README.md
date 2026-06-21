@@ -1,47 +1,299 @@
-# Sistem Case-Based Reasoning (CBR) - Retrieval Hukum Waris Islam
+# CBR Perdata Waris
 
-Proyek ini merupakan implementasi sistem **Case-Based Reasoning (CBR)** untuk melakukan *retrieval* (pencarian kemiripan) yurisprudensi kasus sengketa waris. 
+## Deskripsi Proyek
 
----
+Proyek ini mengimplementasikan metode **Case-Based Reasoning (CBR)** untuk perkara **Perdata Waris** menggunakan dokumen putusan Mahkamah Agung Republik Indonesia.
 
-##  Alur Pipeline Sistem (Siklus CBR)
-Proyek ini dibagi menjadi 5 tahapan terstruktur berbasis Jupyter Notebook (`.ipynb`):
-1. **01_Data_Acquisition.ipynb** – Proses memuat dan merapikan korpus dokumen putusan hukum sengketa waris.
-2. **02_Text_Preprocessing.ipynb** – Pembersihan teks (*case folding*, *filtering*, *stopword removal*, dan *stemming* hukum).
-3. **03_Retrieval.ipynb** – Pembangunan mesin pencari menggunakan pembobotan **TF-IDF**, Klasifikasi **SVM** (Machine Learning), dan **IndoBERT Embedding** (Transformer).
-4. **04_Prediction.ipynb** – Proses *Reuse* & *Revise* solusi hukum (Amar Putusan) berdasarkan *query* kasus baru.
-5. **05_Evaluation.ipynb** – Pengujian performa sistem menggunakan metrik resmi `sklearn.metrics`.
+Sistem dibangun melalui lima tahapan utama:
 
----
+1. Case Base Construction
+2. Case Representation
+3. Case Retrieval
+4. Case Solution Reuse
+5. Model Evaluation
 
-##  Hasil Evaluasi Performa Model
-Berdasarkan pengujian pada **Tahap 5**, berikut adalah tabel perbandingan performa pencarian dokumen hukum menggunakan metrik **Top-5 Retrieval (Hit@5)**:
-
-| Model / Pendekatan | Accuracy | Precision | Recall | F1-Score |
-| :--- | :---: | :---: | :---: | :---: |
-| **TF-IDF Murni** | 1.0 | 1.0 | 1.0 | 1.0 |
-| **TF-IDF + SVM** | 0.0 | 0.0 | 0.0 | 0.0 |
-| **BERT Embedding** | 1.0 | 1.0 | 1.0 | 1.0 |
-
-
+Dataset berasal dari putusan perkara Perdata Waris yang dikonversi dari PDF menjadi teks dan diproses untuk mendukung pencarian kasus serupa serta prediksi hasil putusan.
 
 ---
 
-##  Struktur Direktori Proyek
+## Struktur Folder
+
 ```text
-├── data/
-│   ├── processed/
-│   │   └── cases.csv             # Korpus data hukum hasil preprocessing
-│   ├── eval/
-│   │   ├── queries.json          # Berkas kueri uji (Ground Truth)
-│   │   ├── retrieval_metrics.csv # Output metrik evaluasi retrieval
-│   │   └── prediction_metrics.csv# Output metrik prediksi solusi (Skala 100%)
-│   └── results/
-│       └── predictions.csv       # Hasil prediksi amar putusan kasus baru
-├── notebooks/
-│   ├── 01_data_acquisition.ipynb
-│   ├── 02_text_preprocessing.ipynb
+CBR-Perdata-Waris
+│
+├── data
+│   ├── pdf
+│   │   └── *.pdf
+│   │
+│   ├── raw
+│   │   └── case_001.txt
+│   │   └── case_002.txt
+│   │   └── ...
+│   │
+│   ├── processed
+│   │   ├── cases.csv
+│   │   └── cases.json
+│   │
+│   ├── eval
+│   │   ├── queries.json
+│   │   ├── retrieval_metrics.csv
+│   │   ├── prediction_metrics.csv
+│   │   ├── retrieval_failures.csv
+│   │   └── error_analysis.txt
+│   │
+│   └── results
+│       └── predictions.csv
+│
+├── logs
+│   ├── cleaning.log
+│   └── cleaning.csv
+│
+├── notebooks
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_representation.ipynb
 │   ├── 03_retrieval.ipynb
-│   ├── 04_predict.ipynb
+│   ├── 04_solution_reuse.ipynb
 │   └── 05_evaluation.ipynb
-└── README.md                     # Dokumentasi utama proyek
+│
+└── README.md
+```
+
+---
+
+# Tahap 1 — Case Base
+
+## Tujuan
+
+Membangun korpus putusan Perdata Waris sebagai basis kasus.
+
+## Proses
+
+- Mengumpulkan minimal 30 putusan PDF.
+- Konversi PDF menjadi plain text.
+- Pembersihan:
+  - Header
+  - Footer
+  - Watermark
+  - Nomor halaman
+- Normalisasi karakter dan spasi.
+- Penyimpanan hasil ke:
+
+```text
+data/raw/
+```
+
+## Output
+
+```text
+data/raw/case_001.txt
+data/raw/case_002.txt
+...
+logs/cleaning.log
+logs/cleaning.csv
+```
+
+---
+
+# Tahap 2 — Case Representation
+
+## Tujuan
+
+Merepresentasikan setiap putusan dalam bentuk data terstruktur.
+
+## Metadata yang Diekstrak
+
+- Nomor Perkara
+- Tanggal Putusan
+- Jenis Perkara
+- Pasal
+- Pihak
+
+## Konten Kunci
+
+- Ringkasan Fakta
+- Argumen Hukum Utama
+
+## Feature Engineering
+
+- Length (jumlah kata)
+- Bag of Words
+- QA Pairs
+
+## Output
+
+```text
+data/processed/cases.csv
+data/processed/cases.json
+```
+
+Contoh atribut:
+
+| case_id | no_perkara | tanggal | pasal | pihak |
+|----------|-----------|----------|--------|--------|
+| case_001 | 123/Pdt.G | 2023-02-10 | Pasal 124 KUHPer | A vs B |
+
+---
+
+# Tahap 3 — Case Retrieval
+
+## Tujuan
+
+Menemukan kasus lama yang paling mirip dengan kasus baru.
+
+## Metode
+
+### TF-IDF
+
+Menggunakan:
+
+```python
+TfidfVectorizer()
+```
+
+### Cosine Similarity
+
+Mengukur kemiripan antara query dan seluruh kasus.
+
+### SVM Assisted Retrieval
+
+Menggunakan:
+
+```python
+LinearSVC()
+```
+
+untuk membantu retrieval berdasarkan label solusi.
+
+## Fungsi Retrieval
+
+```python
+retrieve(query, k=5)
+```
+
+Output:
+
+```python
+[
+  case_001,
+  case_015,
+  case_022,
+  case_010,
+  case_031
+]
+```
+
+## Output
+
+```text
+data/eval/queries.json
+```
+
+---
+
+# Tahap 4 — Case Solution Reuse
+
+## Tujuan
+
+Menggunakan solusi dari kasus lama untuk memprediksi hasil kasus baru.
+
+## Pendekatan
+
+### Majority Voting
+
+Memilih solusi yang paling sering muncul pada top-k kasus.
+
+### Weighted Similarity
+
+Memberikan bobot berdasarkan skor similarity retrieval.
+
+## Fungsi
+
+```python
+predict_outcome(query)
+```
+
+## Output
+
+```text
+data/results/predictions.csv
+```
+
+Format:
+
+| query_id | predicted_solution | top_5_case_ids |
+|-----------|-------------------|----------------|
+| Q001 | mengabulkan | case_001, case_010, case_022 |
+
+---
+
+# Tahap 5 — Evaluation
+
+## Evaluasi Retrieval
+
+Menggunakan:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+## Evaluasi Prediction
+
+Mengukur kesesuaian hasil prediksi terhadap putusan sebenarnya.
+
+## Output
+
+```text
+data/eval/retrieval_metrics.csv
+data/eval/prediction_metrics.csv
+data/eval/retrieval_failures.csv
+data/eval/error_analysis.txt
+data/eval/retrieval_chart.png
+```
+
+---
+
+# Library Utama
+
+```bash
+pip install pandas numpy scikit-learn
+pip install pypdf
+pip install tqdm
+pip install matplotlib
+pip install seaborn
+```
+
+---
+
+# Hasil Implementasi
+
+Dataset yang digunakan merupakan putusan perkara Perdata Waris Mahkamah Agung RI.
+
+Model retrieval yang digunakan:
+
+- TF-IDF + Cosine Similarity
+- SVM Assisted Retrieval
+
+Metode reuse:
+
+- Majority Voting
+- Weighted Similarity
+
+Evaluasi dilakukan menggunakan metrik:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+---
+
+# Penulis
+
+Proyek Case-Based Reasoning (CBR)
+
+Perdata Waris
+
+Program Studi Informatika
+
+Universitas Muhammadiyah Malang

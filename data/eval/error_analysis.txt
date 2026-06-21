@@ -1,0 +1,17 @@
+ERROR ANALYSIS / REJECTION ANALYSIS
+==================================================
+Total query evaluasi: 10
+Total kegagalan retrieval top-5 (baseline tfidf_cosine): 0
+
+Perbandingan metode retrieval (lihat retrieval_metrics.csv):
+- tfidf_cosine: Accuracy_Hit@5=1.000, Precision=1.000, Recall=1.000, F1-Score=1.000
+- svm_assisted: Accuracy_Hit@5=1.000, Precision=1.000, Recall=1.000, F1-Score=1.000
+
+Tidak ada query gagal pada pengujian top-5 saat ini.
+
+Rekomendasi perbaikan:
+1. Tambahkan jumlah dokumen putusan agar variasi kasus lebih banyak.
+2. Perbaiki ekstraksi metadata pihak, pasal, dan amar putusan jika banyak bernilai TIDAK DITEMUKAN.
+3. Buat query evaluasi manual yang lebih realistis beserta ground-truth case_id dari dosen/annotator.
+4. Jika label hasil putusan tersedia, latih model klasifikasi SVM/Naive Bayes terhadap label tersebut.
+5. Coba embedding IndoBERT atau Sentence-BERT Indonesia untuk membandingkan dengan TF-IDF.
