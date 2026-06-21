@@ -1,6 +1,6 @@
 # Sistem Case-Based Reasoning (CBR) - Retrieval Hukum Waris Islam
 
-Proyek ini merupakan implementasi sistem **Case-Based Reasoning (CBR)** untuk melakukan *retrieval* (pencarian kemiripan) yurisprudensi kasus sengketa waris berdasarkan **Kompilasi Hukum Islam (KHI)**. Proyek ini disusun untuk memenuhi tugas besar mata kuliah Praktikum Kecerdasan Buatan / Temu Kembali Informasi di **Informatika, Fakultas Teknik, Universitas Muhammadiyah Malang**.
+Proyek ini merupakan implementasi sistem **Case-Based Reasoning (CBR)** untuk melakukan *retrieval* (pencarian kemiripan) yurisprudensi kasus sengketa waris. 
 
 ---
 
