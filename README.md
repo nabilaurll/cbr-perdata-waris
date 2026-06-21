@@ -4,7 +4,7 @@ Proyek ini merupakan implementasi sistem **Case-Based Reasoning (CBR)** untuk me
 
 ---
 
-## 📌 Alur Pipeline Sistem (Siklus CBR)
+##  Alur Pipeline Sistem (Siklus CBR)
 Proyek ini dibagi menjadi 5 tahapan terstruktur berbasis Jupyter Notebook (`.ipynb`):
 1. **01_Data_Acquisition.ipynb** – Proses memuat dan merapikan korpus dokumen putusan hukum sengketa waris.
 2. **02_Text_Preprocessing.ipynb** – Pembersihan teks (*case folding*, *filtering*, *stopword removal*, dan *stemming* hukum).
@@ -14,20 +14,20 @@ Proyek ini dibagi menjadi 5 tahapan terstruktur berbasis Jupyter Notebook (`.ipy
 
 ---
 
-## 📊 Hasil Evaluasi Performa Model
+##  Hasil Evaluasi Performa Model
 Berdasarkan pengujian pada **Tahap 5**, berikut adalah tabel perbandingan performa pencarian dokumen hukum menggunakan metrik **Top-5 Retrieval (Hit@5)**:
 
 | Model / Pendekatan | Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
 | **TF-IDF Murni** | 1.0 | 1.0 | 1.0 | 1.0 |
-| **TF-IDF + SVM** | 1.0 | 1.0 | 1.0 | 1.0 |
+| **TF-IDF + SVM** | 0.0 | 0.0 | 0.0 | 0.0 |
 | **BERT Embedding** | 1.0 | 1.0 | 1.0 | 1.0 |
 
-> 💡 *Catatan Laporan: Evaluasi menggunakan skala metrik penuh. Nilai 1.0 mengindikasikan bahwa dokumen hukum target yang dicari selalu berhasil masuk ke dalam 5 rekomendasi teratas (Top-5) yang disajikan oleh sistem.*
+
 
 ---
 
-## 📂 Struktur Direktori Proyek
+##  Struktur Direktori Proyek
 ```text
 ├── data/
 │   ├── processed/
