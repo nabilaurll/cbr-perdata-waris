@@ -291,6 +291,7 @@ Evaluasi dilakukan menggunakan metrik:
 # Penulis
 
 Nabilla Aurelya P
+
 Muhammad Senopati Panotogomo
 
 Perdata Waris
