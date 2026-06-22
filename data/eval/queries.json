@@ -1,82 +1,82 @@
 [
   {
     "query_id": "Q_001",
-    "query_text": "kasus terkait dasar hukum ahli waris - sebelah selatan berbatas dengan rumah bapak imanuel ginting, - sebelah timur berbatas dengan jalan blok dd, - sebelah barat berbatas dengan rumah bpk. f. melibatkan pihak ahli waris , para tergugat , para termohon , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, kompilasi hukum islam (khi) ranggi palinggi 3. menetapkan penggugat sebagai ahli waris almarhum ranggi palinggi 4. menetapkan bagian/kadar masing-masing ahli waris menurut ketentuan undang-undang yang berlaku 5. menetapkan agar melibatkan pihak ahli waris , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_029"
+      "case_030"
     ],
-    "ground_truth_no_perkara": "5130 K/PDT/2025"
+    "ground_truth_no_perkara": "3187 K/PDT/2024"
   },
   {
     "query_id": "Q_002",
-    "query_text": "kasus terkait dasar hukum ahli waris ukuran 29,60 m x 43 m (1.272 m ) berdiri bangunan sekolah dengan batas-batas: - sebelah utara berbatasan dengan annie roring; - sebelah timur berbatasan melibatkan pihak ahli waris , para tergugat , para termohon , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, kompilasi hukum islam (khi) magdalene, joshua lebani, dan mulyati lukman 3. memerintahkan kepada penggugat dan tergugat serta para ahli waris lainnya untuk membagi harta warisan almarhum sutikno berupa tanah melibatkan pihak ahli waris , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_042"
+      "case_043"
     ],
-    "ground_truth_no_perkara": "6443 K/PDT/2024"
+    "ground_truth_no_perkara": "5212 K/PDT/2024"
   },
   {
     "query_id": "Q_003",
-    "query_text": "kasus terkait dasar hukum ahli waris, harta waris dan menetapkan yang menjadi boedel warisan mendiang ayah penggugat dan tergugat ii/suami dari tergugat i adalah (seperdua) bagian dari harta perkawinan angka 6 point 6.1 melibatkan pihak ahli waris , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, kompilasi hukum islam (khi) petitum gugatan penggugat monang marbun dinyatakan ahli waris rumenggan sinaga di samping itu juga pihak-pihak yang telah meninggal dunia bukan merupakan subjek hukum yang di melibatkan pihak ahli waris , para tergugat , para termohon , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_028"
+      "case_029"
     ],
-    "ground_truth_no_perkara": "4812 K/PDT/2025"
+    "ground_truth_no_perkara": "3156 K/PDT/2025"
   },
   {
     "query_id": "Q_004",
-    "query_text": "kasus terkait dasar hukum ahli waris siapa menguasai apa dalam gugatan a quo, sedangkan kejela san uraian gugatan merupakan syarat formal suatu gugatan agar dapat diterima; bahwa berdasarkan alasan tersebut, gugatan melibatkan pihak ahli waris , para tergugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum pasal 32 khi, pasal 19 khi, pasal 51 khi ( boedel waris) dari almarhum urbanus lumban siantar dan almarhumah ny. j. pakpahan yang belum pernah dibagi waris kepada para penggugat dan tergugat sebagai ahli melibatkan pihak ahli waris , para penggugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
       "case_046"
     ],
-    "ground_truth_no_perkara": "82 K/PDT/2026"
+    "ground_truth_no_perkara": "5651 K/PDT/2025"
   },
   {
     "query_id": "Q_005",
-    "query_text": "kasus terkait dasar hukum ahli waris tergugat iii: - gugatan para penggugat adalah gugatan error in persona; - gugatan para penggugat kabur dan tidak jelas (obscuur libel); - gugatan para penggugat melibatkan pihak ahli waris , para pemohon , para penggugat , para tergugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, kompilasi hukum islam (khi) ada hubungan waris mewaris - bahwa semasa hidupnya leluhur buyut dari para penggugat dan tergugat i dan tergugat ii yang bernama sang made jengker (almarhum) melibatkan pihak para pemohon , para penggugat , para tergugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_026"
-    ],
-    "ground_truth_no_perkara": "4610 K/PDT/2025"
-  },
-  {
-    "query_id": "Q_006",
-    "query_text": "kasus terkait dasar hukum ahli waris, harta waris 1. tanah dan bangunan shm no mor 05445/kapuk., dengan luas 696 meter nib 06438; 2. tanah dan bangunan shm no mor 5446/kapuk., dengan luas 132 melibatkan pihak ahli waris , para penggugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
-    "ground_truth_case_id": [
-      "case_039"
-    ],
-    "ground_truth_no_perkara": "6168 K/PDT/2025"
-  },
-  {
-    "query_id": "Q_007",
-    "query_text": "ada hubungan waris mewaris; - bahwa semasa hidupnya leluhur buyut dari para penggugat dan tergugat i dan tergugat ii yang bernama sang made jengker (almarhum) melibatkan pihak para pemohon , para penggugat , para tergugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
-    "ground_truth_case_id": [
-      "case_014"
+      "case_027"
     ],
     "ground_truth_no_perkara": "2972 K/PDT/2025"
   },
   {
-    "query_id": "Q_008",
-    "query_text": "kasus terkait dasar hukum ahli waris sebelah timur : milik pt sri rejeki isman; sebelah selatan : milik pt sri rejeki isman; sebelah barat : milik ibu liez imany dan jalan melibatkan pihak ahli waris , para pemohon , para penggugat , para tergugat , para termohon , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
+    "query_id": "Q_006",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, hukum waris / boedel dan menetapkan yang menjadi boedel warisan mendiang ayah penggugat dan tergugat ii/suami dari tergugat i adalah (seperdua) bagian dari harta perkawinan angka 6 point 6.1 melibatkan pihak ahli waris , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_021"
+      "case_040"
     ],
-    "ground_truth_no_perkara": "4296 K/PDT/2025"
+    "ground_truth_no_perkara": "4812 K/PDT/2025"
+  },
+  {
+    "query_id": "Q_007",
+    "query_text": "kasus terkait dasar hukum pasal 842 kuhperdata, pasal 354 kuhperdata, pasal 832 kuhperdata mendalilkan dalam putusan a quo terdapat suatu kekhilafan hakim atau suatu kekeliruan yang nyata, kemudian memohon putusan sebagai berikut 1. menerima dan mengabulkan permohonan peninjauan melibatkan pihak ahli waris , para penggugat , para tergugat , para termohon , pemohon , penggugat , tergugat , termohon",
+    "ground_truth_case_id": [
+      "case_014"
+    ],
+    "ground_truth_no_perkara": "966 PK/PDT/2025"
+  },
+  {
+    "query_id": "Q_008",
+    "query_text": "kasus terkait dasar hukum hukum adat, hukum waris, kompilasi hukum islam (khi) i sampai dengan tergugat xi untuk membayar uang paksa (dwangsom) kepada penggugat i, penggugat ii, pen ggugat ii i, dan penggugat iv sebesar rp1.000.000,00 (satu melibatkan pihak ahli waris , para pemohon , para penggugat , para tergugat , para termohon , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
+    "ground_truth_case_id": [
+      "case_022"
+    ],
+    "ground_truth_no_perkara": "2187 K/PDT/2025"
   },
   {
     "query_id": "Q_009",
-    "query_text": "kasus terkait dasar hukum pasal 67 april 2021 (vide bukti pk -1); - putusan peninjauan kembali nomor 121pk/pdt/2024 tanggal 27 maret 2024 (vide bukti pk -2); dan kemudian memohon mahkamah agung melibatkan pihak ahli waris , para pemohon , para tergugat , pemohon , pemohon kasasi , penggugat , tergugat , termohon",
+    "query_text": "kasus terkait dasar hukum pasal 66 kuhperdata, pasal 832 kuhperdata, pasal 852 kuhperdata, pasal 854855 kuhperdata, pasal 861 kuhperdata dari harta bersama almarhum sela pelupessy dengan tergugat yaitu sebidang tanah berikut bangunan yang berdiri diatasnya, terletak di jalan kayu manis vii, gg. sengon iv, melibatkan pihak ahli waris , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_006"
+      "case_005"
     ],
-    "ground_truth_no_perkara": "1458 PK/PDT/2025"
+    "ground_truth_no_perkara": "311 K/PDT/2026"
   },
   {
     "query_id": "Q_010",
-    "query_text": "kasus terkait dasar hukum ahli waris, harta waris warisan sesuai dengan harga pasar harta peninggalan berdasarkan nilai jual objek pajak (njop) yang ditentukan oleh pejabat yang berwenang dalam hal tidak terjadinya kesepakatan pembagian melibatkan pihak ahli waris , para pemohon , para penggugat , para tergugat , para termohon , pembanding , pemohon , pemohon kasasi , penggugat , tergugat , termohon , termohon kasasi",
+    "query_text": "kasus terkait dasar hukum pasal 163 kuhperdata, pasal 131 kuhperdata, pasal 830 kuhperdata, pasal 832 kuhperdata, pasal 852 kuhperdata, pasal 849 kuhperdata sari, jakarta barat, dki jakarta, dengan sertipikat hak guna bangunan nomor 1192-tangki, atas nama lian hoa angkawidjaja halaman 2 (selanjutnya disebut ruko lokasari), adalah merupakan melibatkan pihak ahli waris , pembanding , pemohon , pemohon kasasi , penggugat , terbanding , tergugat , termohon , termohon kasasi",
     "ground_truth_case_id": [
-      "case_027"
+      "case_028"
     ],
-    "ground_truth_no_perkara": "4689 K/PDT/2025"
+    "ground_truth_no_perkara": "2981 K/PDT/2024"
   }
 ]

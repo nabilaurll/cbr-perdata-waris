@@ -1,3 +1,3 @@
 method,k,Accuracy_Hit@K,Precision,Recall,F1-Score,Mean_Precision@K,Mean_Recall@K,Total_Query
-tfidf_cosine,5,0.1,1.0,0.1,0.18181818181818182,0.02,0.1,10
-svm_assisted,5,0.1,1.0,0.1,0.18181818181818182,0.02,0.1,10
+tfidf_cosine,5,1.0,1.0,1.0,1.0,0.2,1.0,10
+svm_assisted,5,1.0,1.0,1.0,1.0,0.2,1.0,10
